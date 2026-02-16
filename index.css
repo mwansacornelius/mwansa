@@ -1,0 +1,133 @@
+#container-qoutes{
+  margin-top: 100px;
+  color: deepskyblue;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 1px darkred inset, 0px 0px 20px -1px indigo inset;
+  box-shadow: 0px 0px 20px 1px darkred , 0px 0px 20px -1px indigo inset;
+  background-r: palevioletred;
+  position: relative;
+  width: 70%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:300px;
+}
+h4{
+  position: absolute;
+  top:10px;
+  left: 40px;
+  width: 25%;
+  height: 30px;
+  display: flex;
+  border: none;
+  border-radius: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rebeccapurple;
+}
+.quotes{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.quotes p{
+  width:70%;
+}
+q{
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black;
+}
+
+.main {
+  
+  
+  display: flex;
+  position: absolute;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100px;
+  left: 50px;
+  top: 40px;
+}
+
+#wrapper {
+  height: 250px;
+  width: 300px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 230px;
+  left: 50px;
+  top: 40px;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  transform: rotate(180deg);
+}
+
+
+
+.load div {
+  width: 5px;
+  height: 20px;
+  border-radius: 2.5px;
+  background-color: #4CAF50;
+  animation: load 0.9s ease-in-out infinite;
+}
+
+.load div:nth-child(2) {
+  animation-delay: 0.8s;
+  background-color: pink;
+}
+
+.load div:nth-child(3) {
+  animation-delay: 0.7s;
+  background-color: yellow;
+}
+
+
+.load div:nth-child(4) {
+  animation-delay: 0.6s;
+  background-color: blue;
+}
+
+.load div:nth-child(5) {
+  animation-delay: 0.5s;
+  background-color: orange;
+}
+
+@keyframes load {
+
+  0%,
+  40%,
+  100% {
+    transform: scaleY(0.05);
+  }
+  
+  20% {
+    transform: scaleY(1);
+  }
+}
+
+#name{
+  color: green;
+  font-size: 22px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px greenyellow;
+}

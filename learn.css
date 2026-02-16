@@ -1,0 +1,16 @@
+
+.error{
+  margin-top: 100px;
+  display:flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+}
+.error img{
+  width:50px;
+}
+
+
+.text{
+  color: red;
+}
